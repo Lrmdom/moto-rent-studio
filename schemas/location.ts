@@ -14,10 +14,22 @@ export const locationType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'vehicles',
-      type: 'reference',
-      to: [{type: 'vehicle'}],
+      name: 'contacts',
+      title: 'Contacts',
+      type: 'internationalizedArrayBlockContent',
     }),
+/*    defineField({
+      title:'Vehicles in Location',
+      name: 'vehicles',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          weak: true,
+          to: {type: 'vehicle'},
+        },
+      ],
+    }),*/
     defineField({
       name: 'company',
       type: 'reference',
