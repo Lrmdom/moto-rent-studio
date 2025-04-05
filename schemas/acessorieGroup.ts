@@ -25,30 +25,29 @@ export const acessorieGroupType = defineType({
         name: 'image',
         type: 'image',
       }),
-      defineField({
-        name: 'vehicleGroup',
-        type: 'reference',
-        to: [{type: 'vehicleGroup'}],
-      }),
-      defineField({
-        name: 'vehicleGroupType',
-        type: 'reference',
-        to: [{type: 'vehicleGroupType'}],
-      }),
-      defineField({
-        name: 'vehicleGroupList',
-        type: 'reference',
-        to: [{type: 'vehicleGroupList'}],
-      }),
-      defineField({
-        name: 'vehicle',
-        type: 'reference',
-        to: [{type: 'vehicle'}],
-      }),
-      {
-        name: 'attributes',
-        title: 'Attributes',
-        type: 'internationalizedArrayBlockContent',
-    },
+    defineField({
+      title: 'Acessories in this group',
+      name: 'acessories',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          weak: true,
+          to: {type: 'acessorie'},
+        },
+      ],
+    }),
+    defineField({
+      title: 'Vehicle models with this acessories',
+      name: 'vehicleModels',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          weak: true,
+          to: {type: 'vehicleModel'},
+        },
+      ],
+    }),
   ],
 })
