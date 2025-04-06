@@ -10,8 +10,9 @@ export const locationType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'description',
-      type: 'string',
+      title: 'Title',
+      name: 'title',
+      type: 'internationalizedArrayString',
     }),
     defineField({
       name: 'contacts',

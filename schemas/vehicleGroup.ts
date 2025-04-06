@@ -24,6 +24,18 @@ export const vehicleGroupType = defineType({
       type: 'internationalizedArrayString',
     }),
     defineField({
+      title: 'This Group Locations',
+      name: 'locations',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          weak: true,
+          to: {type: 'location'},
+        },
+      ],
+    }),
+    defineField({
       name: 'vehicleGroupLists',
       type: 'array',
       of: [
