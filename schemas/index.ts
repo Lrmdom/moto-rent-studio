@@ -24,6 +24,8 @@ import {acessorieType} from './acessorie'
 import {routeType} from './route'
 import {locationType} from './location'
 import {vehicleModelType} from './vehicleModel'
+import {vehiclePricePeriodType} from './vehiclePricePeriod'
+import {vehicleModelPricePeriodType} from './vehicleModelPricePeriod'
 
 export const schemaTypes = [
   locationType,
@@ -32,6 +34,8 @@ export const schemaTypes = [
   vehicleGroupTypeType,
   vehicleModelType,
   vehicleType,
+  vehiclePricePeriodType,
+  vehicleModelPricePeriodType,
   acessorieType,
   acessorieGroupType,
   routeType,
