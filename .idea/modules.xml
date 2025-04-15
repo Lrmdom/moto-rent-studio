@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hono-pubsub/.idea/hono-pubsub.iml" filepath="$PROJECT_DIR$/../hono-pubsub/.idea/hono-pubsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/moto-rent-studio.iml" filepath="$PROJECT_DIR$/.idea/moto-rent-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rideRental-framework-mode/.idea/rideRental-framework-mode.iml" filepath="$PROJECT_DIR$/../rideRental-framework-mode/.idea/rideRental-framework-mode.iml" />
+    </modules>
+  </component>
+</project>

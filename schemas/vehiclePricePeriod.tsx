@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export const vehiclePricePeriodType = defineType({
-  name: 'vehiclePricePeriod',
+  name: 'pricePeriod',
   title: 'Vehicle Price Periods',
   type: 'document',
   fields: [

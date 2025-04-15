@@ -24,7 +24,7 @@ export const vehicleGroupListType = defineType({
       type: 'image',
     }),
     defineField({
-      title:'Vehicle Models',
+      title: 'Vehicle Models',
       name: 'vehicleModels',
       type: 'array',
       of: [
@@ -32,17 +32,6 @@ export const vehicleGroupListType = defineType({
           type: 'reference',
           weak: true,
           to: {type: 'vehicleModel'},
-        },
-      ],
-    }),
-    defineField({
-      name: 'vehicleGroupTypes',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          weak: true,
-          to: {type: 'vehicleGroupType'},
         },
       ],
     }),
