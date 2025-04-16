@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="prices and periods">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/moto-rent-studio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deskStructure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/replace-sku-with-code/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/imageComponentType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/landingPageType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/linkComponentType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/pageType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/richTextComponentType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/schemaTypesindex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/textComponentType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createdata.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultDocumentNode.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicleModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicleModelPricePeriod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleListPricePeriod.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehiclePricePeriod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehiclePricePeriod.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/BookingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/BookingForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Bikes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Bikes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/sendMail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +22,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -72,8 +50,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/leoneldomingos/Projects/moto-rent-studio/schemas",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/leoneldomingos/Projects/hono-pubsub/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../hono-pubsub/src" />
       <recent name="$PROJECT_DIR$/schemas" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/components" />
@@ -220,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744078122493</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
+      <option name="closed" value="true" />
+      <created>1744757667904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744757667905</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +218,8 @@
     <MESSAGE value="groupUniqueVehicleData for the booking form" />
     <MESSAGE value="layout stuff" />
     <MESSAGE value="prices and periods" />
-    <option name="LAST_COMMIT_MESSAGE" value="prices and periods" />
+    <MESSAGE value="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +258,18 @@
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
           <line>195</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
