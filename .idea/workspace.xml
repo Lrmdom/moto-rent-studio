@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/sendMail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/validate-order.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Debug",
     "npm.dev.executor": "Debug",
     "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
     "rearrange.code.on.save": "true",
@@ -78,7 +79,17 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../hono-pubsub/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
       <command value="run" />
@@ -91,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -207,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744757667905</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
+      <option name="closed" value="true" />
+      <created>1744788777689</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744788777689</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +290,12 @@
           <line>5</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
