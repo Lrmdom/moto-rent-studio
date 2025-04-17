@@ -10,12 +10,20 @@ export const vehiclePricePeriodType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'startDate',
+      name: 'start_Date',
       type: 'date',
+      options: {
+        dateFormat: 'DD-MM',
+        calendarTodayLabel: 'Today',
+      },
     }),
     defineField({
-      name: 'endtDate',
+      name: 'end_Date',
       type: 'date',
+      options: {
+        dateFormat: 'DD-MM',
+        calendarTodayLabel: 'Today',
+      },
     }),
     defineField({
       title: 'Title',

@@ -6,6 +6,10 @@ export const vehicleGroupListType = defineType({
   type: 'document',
   fields: [
     defineField({
+      name: 'code',
+      type: 'string',
+    }),
+    defineField({
       name: 'name',
       type: 'string',
     }),
