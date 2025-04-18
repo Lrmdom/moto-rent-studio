@@ -48,6 +48,7 @@ export const vehicleType = defineType({
     defineField({
       name: 'location',
       type: 'reference',
+      weak: true,
       to: {type: 'location'},
     }),
 

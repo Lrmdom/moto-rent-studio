@@ -11,29 +11,31 @@ export const vehicleListPricePeriodType = defineType({
       name: 'name',
       type: 'string',
       /*preview: {
-                                            select: {
-                                              vehicleModel: 'vehicleModel.name',
-                                              periods: 'vehiclePricePeriod.name',
-                                            },
-                                            prepare(selection) {
-                                              const {vehicleModelAndPeriod} = selection
-                                              return {
-                                                ...selection,
-                                                subtitle: vehicleModelAndPeriod && `by ${vehicleModelAndPeriod.name}`,
-                                              }
-                                            },
-                                          },*/
+                                                  select: {
+                                                    vehicleModel: 'vehicleModel.name',
+                                                    periods: 'vehiclePricePeriod.name',
+                                                  },
+                                                  prepare(selection) {
+                                                    const {vehicleModelAndPeriod} = selection
+                                                    return {
+                                                      ...selection,
+                                                      subtitle: vehicleModelAndPeriod && `by ${vehicleModelAndPeriod.name}`,
+                                                    }
+                                                  },
+                                                },*/
     }),
     defineField({
       title: 'Vehicle List',
       name: 'vehicleLists',
       type: 'reference',
+      weak: true,
       to: {type: 'vehicleGroupList'},
     }),
     defineField({
       title: 'Periods',
       name: 'periods',
       type: 'reference',
+      weak: true,
       to: {type: 'pricePeriod'},
     }),
     defineField({
