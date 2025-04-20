@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="hono api pubsub clayer">
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/pubsub-clayer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/pubsub-clayer.ts" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="external price working ok...">
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/rules/rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/external-price.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/hono-pubsub/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev (1).executor&quot;: &quot;Debug&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/leoneldomingos/Projects/hono-pubsub/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Debug",
+    "npm.dev.executor": "Debug",
+    "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../hono-pubsub/src" />
@@ -240,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744940717202</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="external price working ok...">
+      <option name="closed" value="true" />
+      <created>1745012559081</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745012559081</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +264,8 @@
     <MESSAGE value="prices and periods" />
     <MESSAGE value="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists" />
     <MESSAGE value="hono api pubsub clayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="hono api pubsub clayer" />
+    <MESSAGE value="external price working ok..." />
+    <option name="LAST_COMMIT_MESSAGE" value="external price working ok..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,19 +311,9 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
-          <line>9</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
           <line>10</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/priceCalculator.ts</url>
-          <line>24</line>
-          <option name="timeStamp" value="52" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/sanity-pubsub.ts</url>
@@ -407,6 +409,36 @@
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/pubsub-clayer.ts</url>
           <line>50</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>56</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>50</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
