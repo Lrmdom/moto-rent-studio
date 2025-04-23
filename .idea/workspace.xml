@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="avro schema on topic and bigquery....NEED tests">
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="avro schema on topic and bigquery....TESTS OK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/entry.server.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/entry.server.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/locales/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/en/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/es/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/pt/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/public/locales/pt/common.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +37,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -79,11 +89,11 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/public" />
+      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/schemas gcp" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/rules" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/layouts" />
-      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/routes" />
-      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -279,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745313918307</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="avro schema on topic and bigquery....TESTS OK">
+      <option name="closed" value="true" />
+      <created>1745317520625</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1745317520625</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +313,8 @@
     <MESSAGE value="external price working ok..." />
     <MESSAGE value="MULTI RULES rules engine" />
     <MESSAGE value="avro schema on topic and bigquery....NEED tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="avro schema on topic and bigquery....NEED tests" />
+    <MESSAGE value="avro schema on topic and bigquery....TESTS OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="avro schema on topic and bigquery....TESTS OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,19 +542,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>79</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>81</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>87</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
