@@ -10,19 +10,6 @@ export const vehicleListPricePeriodType = defineType({
     defineField({
       name: 'name',
       type: 'string',
-      /*preview: {
-                                                  select: {
-                                                    vehicleModel: 'vehicleModel.name',
-                                                    periods: 'vehiclePricePeriod.name',
-                                                  },
-                                                  prepare(selection) {
-                                                    const {vehicleModelAndPeriod} = selection
-                                                    return {
-                                                      ...selection,
-                                                      subtitle: vehicleModelAndPeriod && `by ${vehicleModelAndPeriod.name}`,
-                                                    }
-                                                  },
-                                                },*/
     }),
     defineField({
       title: 'Vehicle List',
