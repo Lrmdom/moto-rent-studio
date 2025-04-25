@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="new groq querie and data is flowing ok betwwenn routes. Always using root loader for data">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="filters working on grouplists and show apropriate models ...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Bikes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Bikes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745508411320</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="filters working on grouplists and show apropriate models ...">
+      <option name="closed" value="true" />
+      <created>1745602076357</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1745602076357</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +357,8 @@
     <MESSAGE value="avro schema on topic and bigquery....NEED tests" />
     <MESSAGE value="avro schema on topic and bigquery....TESTS OK" />
     <MESSAGE value="new groq querie and data is flowing ok betwwenn routes. Always using root loader for data" />
-    <option name="LAST_COMMIT_MESSAGE" value="new groq querie and data is flowing ok betwwenn routes. Always using root loader for data" />
+    <MESSAGE value="filters working on grouplists and show apropriate models ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="filters working on grouplists and show apropriate models ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,7 +605,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -618,7 +622,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx</url>
-          <line>7</line>
+          <line>8</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="170" />
         </line-breakpoint>
