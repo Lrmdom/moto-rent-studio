@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="filters working on grouplists and show apropriate models ...">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="filter by groupList and Location....NEED TO CONFIRM with tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745667880959</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="filter by groupList and Location....NEED TO CONFIRM with tests">
+      <option name="closed" value="true" />
+      <created>1745669265998</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1745669265998</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +402,8 @@
     <MESSAGE value="avro schema on topic and bigquery....TESTS OK" />
     <MESSAGE value="new groq querie and data is flowing ok betwwenn routes. Always using root loader for data" />
     <MESSAGE value="filters working on grouplists and show apropriate models ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="filters working on grouplists and show apropriate models ..." />
+    <MESSAGE value="filter by groupList and Location....NEED TO CONFIRM with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter by groupList and Location....NEED TO CONFIRM with tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,7 +645,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -656,7 +667,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx</url>
-          <line>45</line>
+          <line>48</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
