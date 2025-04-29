@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="filter by groupList and Location....NEED TO CONFIRM with tests">
-      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
         <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="14c2758665bab545a18ccbfff3582d06b9a11d11" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -68,7 +67,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "330c99ab",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components",
@@ -101,7 +100,7 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
       <command value="run" />
@@ -124,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
@@ -396,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745706990489</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="filter by groupList and Location....NEED TO CONFIRM with tests">
+      <option name="closed" value="true" />
+      <created>1745924933908</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1745924933908</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,6 +728,24 @@
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx</url>
           <line>49</line>
           <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>98</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>72</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
