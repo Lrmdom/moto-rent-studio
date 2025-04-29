@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="filter by groupList and Location....NEED TO CONFIRM with tests">
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
       <list>
         <option value="AvroIDL_ExampleSchema" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -33,10 +36,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="master" />
+        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="14c2758665bab545a18ccbfff3582d06b9a11d11" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -65,7 +68,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "filter-by-locations",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,7 +81,7 @@
     "npm.dev.executor": "Debug",
     "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
     "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/Book.tsx"
   }
@@ -383,11 +388,60 @@
       <option name="project" value="LOCAL" />
       <updated>1745669265998</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="filter by groupList and Location....NEED TO CONFIRM with tests">
+      <option name="closed" value="true" />
+      <created>1745706990489</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745706990489</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8f2137ad-35a7-4228-bfda-4887eddf7a60" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="8f2137ad-35a7-4228-bfda-4887eddf7a60">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../rideRental-framework-mode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="types tunning" />
@@ -656,19 +710,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx</url>
           <line>16</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx</url>
           <line>34</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx</url>
-          <line>48</line>
-          <properties lambdaOrdinal="-1" />
+          <line>49</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
       </breakpoints>
