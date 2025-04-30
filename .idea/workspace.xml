@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/availableModels.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
         <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="14c2758665bab545a18ccbfff3582d06b9a11d11" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -67,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "330c99ab",
+    "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components",
@@ -403,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745924933908</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="filter by groupList and Location....NEED TO CONFIRM with tests">
+      <option name="closed" value="true" />
+      <created>1745943558665</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1745943558665</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,16 +631,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>8</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>11</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>167</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
@@ -731,21 +726,34 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
-          <line>98</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="185" />
+          <line>6</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
-          <line>6</line>
+          <line>129</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="186" />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <condition expression="registration===&quot;84-un-84&quot;" language="TypeScript" />
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
           <line>72</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="188" />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <condition expression="registration===&quot;84-un-84&quot;" language="TypeScript" />
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>98</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="221" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
