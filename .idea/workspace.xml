@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="preparing the way to booking . States dates, add to cart and options available, metadata on the way">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="cannot add sku option to line item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/GroupListOptions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/GroupListOptions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/VehiclesSugested.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/VehiclesSugested.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.$model.$location.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.$model.$location.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/VehiclesSugested.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/VehiclesSugested.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746312349198</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="cannot add sku option to line item">
+      <option name="closed" value="true" />
+      <created>1746354516798</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354516798</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +542,8 @@
     <MESSAGE value="wizard form /Funnel working start and ui ux mobile first by gemini" />
     <MESSAGE value="preparing the way to booking . States dates, add to cart and options available" />
     <MESSAGE value="preparing the way to booking . States dates, add to cart and options available, metadata on the way" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparing the way to booking . States dates, add to cart and options available, metadata on the way" />
+    <MESSAGE value="cannot add sku option to line item" />
+    <option name="LAST_COMMIT_MESSAGE" value="cannot add sku option to line item" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
