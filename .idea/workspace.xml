@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="problems still for build run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$/../hono-pubsub" value="master" />
         <entry key="$PROJECT_DIR$" value="main" />
-        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="64109685939bcf07d40375b75704865eea9a9432" />
+        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="f8f5785ccb5b5b0de9de99f61752a377be40b7c8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
@@ -74,7 +72,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "9030a3ac",
+    "git-widget-placeholder": "sku__options__to__order__metadata",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
@@ -515,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746456819169</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746458660340</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1746458660340</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,20 +530,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
-        <entry key="776dae03-6417-45ad-a329-85edbb244bd6" value="TOOL_WINDOW" />
-        <entry key="62ad52c5-a51f-4452-88b7-46c9d8c6a365" value="TOOL_WINDOW" />
+        <entry key="23c304a9-4705-4637-9464-c1b0e5afa930" value="TOOL_WINDOW" />
+        <entry key="5d6f29a1-a7be-460b-824a-70f3d89f8b9e" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="62ad52c5-a51f-4452-88b7-46c9d8c6a365">
+        <entry key="23c304a9-4705-4637-9464-c1b0e5afa930">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../rideRental-framework-mode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
-        <entry key="776dae03-6417-45ad-a329-85edbb244bd6">
+        <entry key="5d6f29a1-a7be-460b-824a-70f3d89f8b9e">
           <value>
             <State>
               <option name="FILTERS">
@@ -597,7 +614,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>12</line>
+          <line>33</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -802,7 +819,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>13</line>
+          <line>37</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
