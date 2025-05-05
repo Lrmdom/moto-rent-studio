@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="sku option to line item --ok">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="problems still for build run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/GroupListOptions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/GroupListOptions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.$model.$location.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.$model.$location.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/react-router.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +66,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sku__options__to__order__metadata&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev (1).executor&quot;: &quot;Debug&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/GroupListOptions.tsx&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "sku__options__to__order__metadata",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Debug",
+    "npm.dev.executor": "Debug",
+    "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
+    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/node_modules/.pnpm/@commercelayer+sdk@6.40.0/node_modules/@commercelayer/sdk/package.json"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/routes" />
@@ -497,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746375664493</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746441400921</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1746441400921</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +597,8 @@
     <MESSAGE value="preparing the way to booking . States dates, add to cart and options available, metadata on the way" />
     <MESSAGE value="cannot add sku option to line item" />
     <MESSAGE value="sku option to line item --ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="sku option to line item --ok" />
+    <MESSAGE value="problems still for build run" />
+    <option name="LAST_COMMIT_MESSAGE" value="problems still for build run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
