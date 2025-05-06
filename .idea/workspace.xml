@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="problems still for build run">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="bug fixes for skuOptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Bikes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Bikes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.$model.$location.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Book.$title.$model.$location.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.$title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Book.$title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Book.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.$title.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Locations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Locations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/en.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/es.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/pt.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +52,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../hono-pubsub" value="master" />
         <entry key="$PROJECT_DIR$" value="main" />
-        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="master" />
+        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="049dd5b3dc3850d191d0231c628781fa10417d18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
@@ -73,7 +85,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sdk__order__metadata",
+    "git-widget-placeholder": "sku__options__to__order__metadata",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
@@ -88,7 +100,7 @@
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
-    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/node_modules/.pnpm/@commercelayer+sdk@6.40.0/node_modules/@commercelayer/sdk/package.json"
+    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components/VehiclesSugested.tsx"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +119,7 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
       <command value="run" />
@@ -153,30 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743851758847</updated>
-    </task>
-    <task id="LOCAL-00001" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743866543437</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1743866543437</updated>
-    </task>
-    <task id="LOCAL-00002" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743869101806</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1743869101806</updated>
-    </task>
-    <task id="LOCAL-00003" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743882412048</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743882412048</updated>
     </task>
     <task id="LOCAL-00004" summary="types tunning">
       <option name="closed" value="true" />
@@ -538,15 +526,70 @@
       <option name="project" value="LOCAL" />
       <updated>1746506696021</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746507111821</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1746507111821</updated>
+    </task>
+    <task id="LOCAL-00050" summary="bug fixes for demo">
+      <option name="closed" value="true" />
+      <created>1746522946519</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1746522946520</updated>
+    </task>
+    <task id="LOCAL-00051" summary="bug fixes for demo">
+      <option name="closed" value="true" />
+      <created>1746523080229</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1746523080229</updated>
+    </task>
+    <task id="LOCAL-00052" summary="bug fixes for skuOptions">
+      <option name="closed" value="true" />
+      <created>1746569778404</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1746569778404</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3d61a3ae-73e0-460d-8fe2-7a238a12d5b6" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="3d61a3ae-73e0-460d-8fe2-7a238a12d5b6">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../rideRental-framework-mode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -577,7 +620,9 @@
     <MESSAGE value="cannot add sku option to line item" />
     <MESSAGE value="sku option to line item --ok" />
     <MESSAGE value="problems still for build run" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems still for build run" />
+    <MESSAGE value="bug fixes for demo" />
+    <MESSAGE value="bug fixes for skuOptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes for skuOptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,6 +631,11 @@
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/preview.ts</url>
           <line>25</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Home.tsx</url>
+          <line>33</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/sanity-pubsub.ts</url>
@@ -694,28 +744,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
-          <line>92</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
           <line>96</line>
           <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
-          <line>35</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
-          <line>89</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
-          <line>90</line>
-          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
@@ -786,6 +816,26 @@
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>87</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/$locale.Home.tsx</url>
+          <line>37</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>14</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>85</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
+          <line>59</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
