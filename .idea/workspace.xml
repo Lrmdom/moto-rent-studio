@@ -7,6 +7,7 @@
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="problems still for build run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/sdk_order_metadata" />
+    <option name="BRANCH" value="origin/sku_options_to_order_metadata" />
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="330c99a" />
@@ -39,7 +40,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../hono-pubsub" value="master" />
         <entry key="$PROJECT_DIR$" value="main" />
-        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="41d66d4e418cc60beff1fcac7322efe9478d1392" />
+        <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
@@ -72,7 +73,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "sdk__order__metadata",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
@@ -529,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746460725432</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746506696021</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1746506696021</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,11 +586,6 @@
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/sanity/preview.ts</url>
           <line>25</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>12</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/sanity-pubsub.ts</url>
@@ -782,11 +786,6 @@
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>87</line>
           <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>13</line>
-          <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
