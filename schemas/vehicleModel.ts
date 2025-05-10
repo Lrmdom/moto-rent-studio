@@ -20,6 +20,11 @@ export const vehicleModelType = defineType({
       type: 'internationalizedArrayString',
     }),
     defineField({
+      title: 'Model Link',
+      name: 'modelLink',
+      type: 'string',
+    }),
+    defineField({
       title: 'Description',
       name: 'description',
       type: 'internationalizedArrayString',
@@ -29,16 +34,16 @@ export const vehicleModelType = defineType({
       type: 'image',
     }),
     /* defineField({
-           name: 'vehicleGroupLists',
-           type: 'array',
-           of: [
-             {
-               type: 'reference',
-               weak: true,
-               to: {type: 'vehicleGroupList'},
-             },
-           ],
-         }),*/
+                       name: 'vehicleGroupLists',
+                       type: 'array',
+                       of: [
+                         {
+                           type: 'reference',
+                           weak: true,
+                           to: {type: 'vehicleGroupList'},
+                         },
+                       ],
+                     }),*/
     defineField({
       name: 'vehicleGroupTypes',
       type: 'array',
