@@ -21,24 +21,9 @@ export const acessorieType = defineType({
       name: 'description',
       type: 'internationalizedArrayString',
     }),
-      defineField({
-        name: 'image',
-        type: 'image',
-      }),
     defineField({
-      name: 'acessorieGroup',
-      type: 'reference',
-      to: [{type: 'acessorieGroup'}],
+      name: 'image',
+      type: 'image',
     }),
-      defineField({
-        name: 'vehicleModel',
-        type: 'reference',
-        to: [{type: 'vehicleModel'}],
-      }),
-      {
-        name: 'attributes',
-        title: 'Attributes',
-        type: 'internationalizedArrayBlockContent',
-    },
   ],
 })

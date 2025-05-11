@@ -21,6 +21,10 @@ import {attributeType} from './attributeType'
 import {promotionType} from './promotionType'
 import {acessorieGroupType} from './acessorieGroup'
 import {acessorieType} from './acessorie'
+import {
+  vehicleModelAcessoriesGroup,
+  vehicleModelAcessoriesGroupType,
+} from './VehicleModelAcessoriesGroup'
 import {routeType} from './route'
 import {locationType} from './location'
 import {vehicleModelType} from './vehicleModel'
@@ -38,6 +42,7 @@ export const schemaTypes = [
   vehicleListPricePeriodType,
   acessorieType,
   acessorieGroupType,
+  vehicleModelAcessoriesGroupType,
   routeType,
   post,
   attributeType,
