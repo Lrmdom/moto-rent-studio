@@ -30,11 +30,13 @@ import {locationType} from './location'
 import {vehicleModelType} from './vehicleModel'
 import {vehiclePricePeriodType} from './vehiclePricePeriod'
 import {vehicleListPricePeriodType} from './vehicleListPricePeriod'
+import {VehicleGroupListOptionsType} from './VehicleGroupListOptions'
 
 export const schemaTypes = [
   locationType,
   vehicleGroupType,
   vehicleGroupListType,
+  VehicleGroupListOptionsType,
   vehicleGroupTypeType,
   vehicleModelType,
   vehicleType,

@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
-export const acessorieType = defineType({
-  name: 'acessorie',
-  title: 'Acessories',
+export const VehicleGroupListOptionsType = defineType({
+  name: 'VehicleGroupListOptions',
+  title: 'Vehicle GroupList Options',
   type: 'document',
   fields: [
     defineField({
@@ -10,15 +10,30 @@ export const acessorieType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'pricing',
+      name: 'regExpression',
+      type: 'string',
+    }),
+    defineField({
+      name: 'price',
       type: 'number',
+    }),
+    defineField({
+      title: 'Vehicle Groups Lists',
+      name: 'vehiclegrouplist',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          weak: true,
+          to: {type: 'vehicleGroupList'},
+        },
+      ],
     }),
     defineField({
       title: 'Title',
       name: 'title',
       type: 'internationalizedArrayString',
     }),
-
     defineField({
       title: 'Description',
       name: 'description',
