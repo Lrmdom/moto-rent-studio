@@ -10,8 +10,18 @@ export const vehicleModelType = defineType({
       type: 'string',
     }),
     {
-      title: 'Address Delivery',
+      title: 'Address Delivery Possible',
       name: 'addressDelivery',
+      type: 'boolean',
+    },
+    {
+      title: 'To Rent?',
+      name: 'toRent',
+      type: 'boolean',
+    },
+    {
+      title: 'To Sale?',
+      name: 'toSale',
       type: 'boolean',
     },
     defineField({
@@ -34,16 +44,16 @@ export const vehicleModelType = defineType({
       type: 'image',
     }),
     /* defineField({
-                       name: 'vehicleGroupLists',
-                       type: 'array',
-                       of: [
-                         {
-                           type: 'reference',
-                           weak: true,
-                           to: {type: 'vehicleGroupList'},
-                         },
-                       ],
-                     }),*/
+                               name: 'vehicleGroupLists',
+                               type: 'array',
+                               of: [
+                                 {
+                                   type: 'reference',
+                                   weak: true,
+                                   to: {type: 'vehicleGroupList'},
+                                 },
+                               ],
+                             }),*/
     defineField({
       name: 'vehicleGroupTypes',
       type: 'array',
