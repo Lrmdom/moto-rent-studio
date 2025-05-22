@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="order and line item amount vslues fixed...">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="topic and biquery transformations on data">
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/books.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/modules/clayerEventsTransformer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/clayerEventsTransformer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/LayoutBookingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/LayoutBookingForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AvroIDL_ExampleSchema" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -36,8 +44,8 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,7 +55,7 @@
         <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="custom-checkout" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hono-pubsub" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -80,7 +88,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "cc15fdab",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
@@ -107,14 +115,14 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../hono-pubsub/src" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/public" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/schemas gcp" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/rules" />
-      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
       <command value="run" />
@@ -137,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
@@ -160,30 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743851758847</updated>
-    </task>
-    <task id="LOCAL-00009" summary="groupUniqueVehicleData for the booking form">
-      <option name="closed" value="true" />
-      <created>1744053566367</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1744053566367</updated>
-    </task>
-    <task id="LOCAL-00010" summary="layout stuff">
-      <option name="closed" value="true" />
-      <created>1744076282806</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1744076282806</updated>
-    </task>
-    <task id="LOCAL-00011" summary="prices and periods">
-      <option name="closed" value="true" />
-      <created>1744078122493</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1744078122493</updated>
     </task>
     <task id="LOCAL-00012" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
       <option name="closed" value="true" />
@@ -553,7 +537,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747679075168</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747679427233</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1747679427233</updated>
+    </task>
+    <task id="LOCAL-00059" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747845073759</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1747845073760</updated>
+    </task>
+    <task id="LOCAL-00060" summary="topic and biquery transformations on data">
+      <option name="closed" value="true" />
+      <created>1747871821416</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1747871821416</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="types tunning" />
     <MESSAGE value="groupUniqueVehicleData for the booking form" />
     <MESSAGE value="layout stuff" />
     <MESSAGE value="prices and periods" />
@@ -638,7 +645,8 @@
     <MESSAGE value="bug fixes for skuOptions" />
     <MESSAGE value="BUILD IS RUN NOW" />
     <MESSAGE value="order and line item amount vslues fixed..." />
-    <option name="LAST_COMMIT_MESSAGE" value="order and line item amount vslues fixed..." />
+    <MESSAGE value="topic and biquery transformations on data" />
+    <option name="LAST_COMMIT_MESSAGE" value="topic and biquery transformations on data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,11 +665,6 @@
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/sanity-pubsub.ts</url>
           <line>10</line>
           <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/external-price.ts</url>
-          <line>10</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/sanity-pubsub.ts</url>
@@ -785,58 +788,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>157</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>165</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>8</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>11</line>
+          <line>13</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>167</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>170</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>158</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>61</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>62</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>112</line>
-          <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
@@ -858,7 +821,60 @@
           <line>13</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
+          <line>69</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>236</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>253</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>168</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>169</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="error.message" language="TypeScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
