@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="topic and biquery transformations on data">
-      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/books.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/modules/clayerEventsTransformer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/clayerEventsTransformer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="availabilaty check and stabilize the clayer event to pubsub structure and data transformation">
+      <change beforePath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/LayoutBookingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/LayoutBookingForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "cc15fdab",
+    "git-widget-placeholder": "967c1551",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
     "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
@@ -168,22 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743851758847</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744757667904</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744757667905</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744788777689</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1744788777689</updated>
     </task>
     <task id="LOCAL-00014" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
       <option name="closed" value="true" />
@@ -561,7 +538,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747871821416</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation">
+      <option name="closed" value="true" />
+      <created>1747880182740</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880182740</updated>
+    </task>
+    <task id="LOCAL-00062" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation">
+      <option name="closed" value="true" />
+      <created>1747880238948</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880238948</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="groupUniqueVehicleData for the booking form" />
     <MESSAGE value="layout stuff" />
     <MESSAGE value="prices and periods" />
     <MESSAGE value="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists" />
@@ -646,7 +638,8 @@
     <MESSAGE value="BUILD IS RUN NOW" />
     <MESSAGE value="order and line item amount vslues fixed..." />
     <MESSAGE value="topic and biquery transformations on data" />
-    <option name="LAST_COMMIT_MESSAGE" value="topic and biquery transformations on data" />
+    <MESSAGE value="availabilaty check and stabilize the clayer event to pubsub structure and data transformation" />
+    <option name="LAST_COMMIT_MESSAGE" value="availabilaty check and stabilize the clayer event to pubsub structure and data transformation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -788,16 +781,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>8</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
-          <line>13</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/receive-clayer-event.ts</url>
           <line>44</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
@@ -847,15 +830,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
-          <line>168</line>
+          <line>165</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
-          <line>169</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
@@ -865,9 +842,45 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
-          <line>28</line>
+          <line>36</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>221</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>41</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/bookingAvailability.ts</url>
+          <line>225</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../hono-pubsub/src/availability-check.ts</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="185" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
