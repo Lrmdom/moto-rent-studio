@@ -21,16 +21,14 @@ import {attributeType} from './attributeType'
 import {promotionType} from './promotionType'
 import {acessorieGroupType} from './acessorieGroup'
 import {acessorieType} from './acessorie'
-import {
-  vehicleModelAcessoriesGroup,
-  vehicleModelAcessoriesGroupType,
-} from './VehicleModelAcessoriesGroup'
+import {vehicleModelAcessoriesGroupType} from './VehicleModelAcessoriesGroup'
 import {routeType} from './route'
 import {locationType} from './location'
 import {vehicleModelType} from './vehicleModel'
 import {vehiclePricePeriodType} from './vehiclePricePeriod'
 import {vehicleListPricePeriodType} from './vehicleListPricePeriod'
 import {VehicleGroupListOptionsType} from './VehicleGroupListOptions'
+import {seasonDefinitionType} from './seasonDefinition'
 
 export const schemaTypes = [
   locationType,
@@ -42,6 +40,7 @@ export const schemaTypes = [
   vehicleType,
   vehiclePricePeriodType,
   vehicleListPricePeriodType,
+  seasonDefinitionType,
   acessorieType,
   acessorieGroupType,
   vehicleModelAcessoriesGroupType,
