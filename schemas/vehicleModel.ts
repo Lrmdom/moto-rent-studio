@@ -9,6 +9,17 @@ export const vehicleModelType = defineType({
       name: 'name',
       type: 'string',
     }),
+
+    {
+      name: 'groupList', // THIS IS THE KEY FIELD for the relationship
+      title: 'Motorcycle Group',
+      type: 'reference', // It's a reference type
+      to: [{type: 'vehicleGroupList'}], // It refers to the 'motorcycleGroupList' document type
+      description:
+        'Select the group (category) this motorcycle model belongs to. Each model can only belong to one group.',
+      validation: (Rule) => Rule.required().error('Every model must belong to a group.'), // ENFORCES THE ONE-TO-ONE/MANY-TO-ONE CONSTRAINT
+    },
+
     {
       title: 'Address Delivery Possible',
       name: 'addressDelivery',
@@ -43,17 +54,7 @@ export const vehicleModelType = defineType({
       name: 'image',
       type: 'image',
     }),
-    /* defineField({
-                               name: 'vehicleGroupLists',
-                               type: 'array',
-                               of: [
-                                 {
-                                   type: 'reference',
-                                   weak: true,
-                                   to: {type: 'vehicleGroupList'},
-                                 },
-                               ],
-                             }),*/
+
     defineField({
       name: 'vehicleGroupTypes',
       type: 'array',
