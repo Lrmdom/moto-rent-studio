@@ -92,17 +92,5 @@ export const vehicleGroupListType = defineType({
         }),
       ],
     }),
-    defineField({
-      title: 'Vehicle Models',
-      name: 'vehicleModels',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          weak: true, // Assuming you want this to be weak as well
-          to: {type: 'vehicleModel'},
-        },
-      ],
-    }),
   ],
 })
