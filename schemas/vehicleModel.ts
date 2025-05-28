@@ -19,22 +19,6 @@ export const vehicleModelType = defineType({
         'Select the group (category) this motorcycle model belongs to. Each model can only belong to one group.',
       validation: (Rule) => Rule.required().error('Every model must belong to a group.'), // ENFORCES THE ONE-TO-ONE/MANY-TO-ONE CONSTRAINT
     },
-
-    {
-      title: 'Address Delivery Possible',
-      name: 'addressDelivery',
-      type: 'boolean',
-    },
-    {
-      title: 'To Rent?',
-      name: 'toRent',
-      type: 'boolean',
-    },
-    {
-      title: 'To Sale?',
-      name: 'toSale',
-      type: 'boolean',
-    },
     defineField({
       title: 'Title',
       name: 'title',

@@ -3,11 +3,14 @@ import {defineField, defineType} from 'sanity'
 export const VehicleGroupListOptionsType = defineType({
   name: 'VehicleGroupListOptions',
   title: 'Vehicle GroupList Options',
+
   type: 'document',
   fields: [
     defineField({
       name: 'name',
       type: 'string',
+      description:
+        'The name attribute must be exactly the same name in Commercelayer sku_options.name.',
     }),
     defineField({
       name: 'regExpression',
@@ -16,6 +19,8 @@ export const VehicleGroupListOptionsType = defineType({
     defineField({
       name: 'price',
       type: 'number',
+      description:
+        'Price comes from CommerceLayer. This must be synced if want to set prices here.',
     }),
     defineField({
       title: 'Vehicle Groups Lists',

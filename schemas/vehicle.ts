@@ -9,11 +9,27 @@ export const vehicleType = defineType({
       name: 'name',
       type: 'string',
     }),
+    {
+      title: 'Address Delivery Possible',
+      name: 'addressDelivery',
+      type: 'boolean',
+    },
+    {
+      title: 'To Rent?',
+      name: 'toRent',
+      type: 'boolean',
+    },
+    {
+      title: 'To Sale?',
+      name: 'toSale',
+      type: 'boolean',
+    },
     defineField({
       title: 'Title',
       name: 'title',
       type: 'internationalizedArrayString',
     }),
+
     defineField({
       title: 'Description',
       name: 'description',

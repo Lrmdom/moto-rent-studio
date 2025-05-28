@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="new schem , new query and everiything ok in frontend...NICEEEEE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/VehicleGroupListOptions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/VehicleGroupListOptions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/vehicle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/vehicleModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleModel.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;72a24d5c&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;a7e155f8&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio&quot;,
@@ -161,14 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743851758847</updated>
-    </task>
-    <task id="LOCAL-00019" summary="MULTI RULES rules engine">
-      <option name="closed" value="true" />
-      <created>1745155940243</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1745155940243</updated>
     </task>
     <task id="LOCAL-00020" summary="avro schema on topic and bigquery....NEED tests">
       <option name="closed" value="true" />
@@ -554,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748205673388</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="new schem , new query and everiything ok in frontend...NICEEEEE">
+      <option name="closed" value="true" />
+      <created>1748250211207</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1748250211207</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
