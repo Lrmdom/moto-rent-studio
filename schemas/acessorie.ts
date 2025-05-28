@@ -9,7 +9,10 @@ export const acessorieType = defineType({
       name: 'name',
       type: 'string',
     }),
-
+    defineField({
+      name: 'pricing',
+      type: 'number',
+    }),
     defineField({
       title: 'Title',
       name: 'title',
@@ -21,24 +24,9 @@ export const acessorieType = defineType({
       name: 'description',
       type: 'internationalizedArrayString',
     }),
-      defineField({
-        name: 'image',
-        type: 'image',
-      }),
     defineField({
-      name: 'acessorieGroup',
-      type: 'reference',
-      to: [{type: 'acessorieGroup'}],
+      name: 'image',
+      type: 'image',
     }),
-      defineField({
-        name: 'vehicleModel',
-        type: 'reference',
-        to: [{type: 'vehicleModel'}],
-      }),
-      {
-        name: 'attributes',
-        title: 'Attributes',
-        type: 'internationalizedArrayBlockContent',
-    },
   ],
 })
