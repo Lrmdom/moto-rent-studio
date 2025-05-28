@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="problems still for build run">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/components/quickSearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rideRental-framework-mode/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../rideRental-framework-mode/react-router.config.ts" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="some descriptions in fields like options.name, for rent, for sale , address delivery moved to vehicle from vehiclemodel">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/moto-rent-studio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AvroIDL_ExampleSchema" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -32,16 +33,27 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/sdk_order_metadata" />
+    <option name="BRANCH" value="origin/sku_options_to_order_metadata" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="330c99a" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/../hono-pubsub" value="6b18bf552245b0b8c40c388ceeb2a3c40a4ffb7a" />
+        <entry key="$PROJECT_DIR$" value="all-detched-changes" />
         <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,6 +68,9 @@
     &quot;accountId&quot;: &quot;83e7a692-230a-4a68-8512-4d5f8fb11a7d&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -66,28 +81,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sku__options__to__order__metadata",
-    "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Debug",
-    "npm.dev.executor": "Debug",
-    "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
-    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/node_modules/.pnpm/@commercelayer+sdk@6.40.0/node_modules/@commercelayer/sdk/package.json"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Debug&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components/VehiclesSugested.tsx&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/routes" />
@@ -97,14 +112,14 @@
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../hono-pubsub/src" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/public" />
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/i18n" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/schemas gcp" />
       <recent name="$PROJECT_DIR$/../hono-pubsub/src/rules" />
-      <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../rideRental-framework-mode/package.json" />
       <command value="run" />
@@ -127,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -150,158 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743851758847</updated>
-    </task>
-    <task id="LOCAL-00001" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743866543437</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1743866543437</updated>
-    </task>
-    <task id="LOCAL-00002" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743869101806</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1743869101806</updated>
-    </task>
-    <task id="LOCAL-00003" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743882412048</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743882412048</updated>
-    </task>
-    <task id="LOCAL-00004" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743889637738</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743889637738</updated>
-    </task>
-    <task id="LOCAL-00005" summary="types tunning">
-      <option name="closed" value="true" />
-      <created>1743893181072</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743893181072</updated>
-    </task>
-    <task id="LOCAL-00006" summary="groupUniqueVehicleData for the booking form">
-      <option name="closed" value="true" />
-      <created>1743952634272</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1743952634272</updated>
-    </task>
-    <task id="LOCAL-00007" summary="groupUniqueVehicleData for the booking form">
-      <option name="closed" value="true" />
-      <created>1743961429899</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1743961429899</updated>
-    </task>
-    <task id="LOCAL-00008" summary="groupUniqueVehicleData for the booking form">
-      <option name="closed" value="true" />
-      <created>1743979524927</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1743979524927</updated>
-    </task>
-    <task id="LOCAL-00009" summary="groupUniqueVehicleData for the booking form">
-      <option name="closed" value="true" />
-      <created>1744053566367</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1744053566367</updated>
-    </task>
-    <task id="LOCAL-00010" summary="layout stuff">
-      <option name="closed" value="true" />
-      <created>1744076282806</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1744076282806</updated>
-    </task>
-    <task id="LOCAL-00011" summary="prices and periods">
-      <option name="closed" value="true" />
-      <created>1744078122493</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1744078122493</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744757667904</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744757667905</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744788777689</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1744788777689</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744825474359</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1744825474359</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists">
-      <option name="closed" value="true" />
-      <created>1744919918852</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1744919918852</updated>
-    </task>
-    <task id="LOCAL-00016" summary="hono api pubsub clayer">
-      <option name="closed" value="true" />
-      <created>1744940717202</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1744940717202</updated>
-    </task>
-    <task id="LOCAL-00017" summary="external price working ok...">
-      <option name="closed" value="true" />
-      <created>1745012559081</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1745012559081</updated>
-    </task>
-    <task id="LOCAL-00018" summary="MULTI RULES rules engine">
-      <option name="closed" value="true" />
-      <created>1745144033371</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1745144033371</updated>
-    </task>
-    <task id="LOCAL-00019" summary="MULTI RULES rules engine">
-      <option name="closed" value="true" />
-      <created>1745155940243</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1745155940243</updated>
     </task>
     <task id="LOCAL-00020" summary="avro schema on topic and bigquery....NEED tests">
       <option name="closed" value="true" />
@@ -503,7 +366,199 @@
       <option name="project" value="LOCAL" />
       <updated>1746441400921</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746456819169</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1746456819169</updated>
+    </task>
+    <task id="LOCAL-00046" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746458660340</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1746458660340</updated>
+    </task>
+    <task id="LOCAL-00047" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746460725432</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1746460725432</updated>
+    </task>
+    <task id="LOCAL-00048" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746506696021</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1746506696021</updated>
+    </task>
+    <task id="LOCAL-00049" summary="problems still for build run">
+      <option name="closed" value="true" />
+      <created>1746507111821</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1746507111821</updated>
+    </task>
+    <task id="LOCAL-00050" summary="bug fixes for demo">
+      <option name="closed" value="true" />
+      <created>1746522946519</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1746522946520</updated>
+    </task>
+    <task id="LOCAL-00051" summary="bug fixes for demo">
+      <option name="closed" value="true" />
+      <created>1746523080229</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1746523080229</updated>
+    </task>
+    <task id="LOCAL-00052" summary="bug fixes for skuOptions">
+      <option name="closed" value="true" />
+      <created>1746569778404</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1746569778404</updated>
+    </task>
+    <task id="LOCAL-00053" summary="bug fixes for skuOptions">
+      <option name="closed" value="true" />
+      <created>1746575429286</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1746575429286</updated>
+    </task>
+    <task id="LOCAL-00054" summary="bug fixes for skuOptions">
+      <option name="closed" value="true" />
+      <created>1746578326191</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1746578326191</updated>
+    </task>
+    <task id="LOCAL-00055" summary="BUILD IS RUN NOW">
+      <option name="closed" value="true" />
+      <created>1746588104181</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1746588104181</updated>
+    </task>
+    <task id="LOCAL-00056" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747677573299</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1747677573299</updated>
+    </task>
+    <task id="LOCAL-00057" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747679075168</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1747679075168</updated>
+    </task>
+    <task id="LOCAL-00058" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747679427233</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1747679427233</updated>
+    </task>
+    <task id="LOCAL-00059" summary="order and line item amount vslues fixed...">
+      <option name="closed" value="true" />
+      <created>1747845073759</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1747845073760</updated>
+    </task>
+    <task id="LOCAL-00060" summary="topic and biquery transformations on data">
+      <option name="closed" value="true" />
+      <created>1747871821416</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1747871821416</updated>
+    </task>
+    <task id="LOCAL-00061" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation">
+      <option name="closed" value="true" />
+      <created>1747880182740</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880182740</updated>
+    </task>
+    <task id="LOCAL-00062" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation">
+      <option name="closed" value="true" />
+      <created>1747880238948</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1747880238948</updated>
+    </task>
+    <task id="LOCAL-00063" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation---it is WORKING OK">
+      <option name="closed" value="true" />
+      <created>1747904682942</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1747904682942</updated>
+    </task>
+    <task id="LOCAL-00064" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation---it is WORKING OK">
+      <option name="closed" value="true" />
+      <created>1747905960250</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1747905960250</updated>
+    </task>
+    <task id="LOCAL-00065" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation---it is WORKING OK">
+      <option name="closed" value="true" />
+      <created>1747908914983</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1747908914983</updated>
+    </task>
+    <task id="LOCAL-00066" summary="availabilaty check and stabilize the clayer event to pubsub structure and data transformation---it is WORKING OK">
+      <option name="closed" value="true" />
+      <created>1748194421747</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1748194421747</updated>
+    </task>
+    <task id="LOCAL-00067" summary="new schem , new query and everiything ok in frontend...NICEEEEE">
+      <option name="closed" value="true" />
+      <created>1748205673388</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1748205673388</updated>
+    </task>
+    <task id="LOCAL-00068" summary="new schem , new query and everiything ok in frontend...NICEEEEE">
+      <option name="closed" value="true" />
+      <created>1748250211207</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1748250211207</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,24 +567,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
-        <entry key="8f2137ad-35a7-4228-bfda-4887eddf7a60" value="TOOL_WINDOW" />
-        <entry key="06e05b0d-376f-4d6c-a543-100490c1638f" value="TOOL_WINDOW" />
+        <entry key="3d61a3ae-73e0-460d-8fe2-7a238a12d5b6" value="TOOL_WINDOW" />
+        <entry key="89d88221-65c4-4f9d-9461-f89d63f12268" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="06e05b0d-376f-4d6c-a543-100490c1638f">
+        <entry key="3d61a3ae-73e0-460d-8fe2-7a238a12d5b6">
           <value>
             <State>
               <option name="FILTERS">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
                   <entry key="roots">
                     <value>
                       <list>
@@ -543,18 +591,11 @@
             </State>
           </value>
         </entry>
-        <entry key="8f2137ad-35a7-4228-bfda-4887eddf7a60">
+        <entry key="89d88221-65c4-4f9d-9461-f89d63f12268">
           <value>
             <State>
               <option name="FILTERS">
                 <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
                   <entry key="roots">
                     <value>
                       <list>
@@ -577,10 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="types tunning" />
-    <MESSAGE value="groupUniqueVehicleData for the booking form" />
-    <MESSAGE value="layout stuff" />
-    <MESSAGE value="prices and periods" />
     <MESSAGE value="Change schemas relations to acommodate prices by list and not model.&#10;Less records in table relating periods prices lists" />
     <MESSAGE value="hono api pubsub clayer" />
     <MESSAGE value="external price working ok..." />
@@ -598,7 +635,15 @@
     <MESSAGE value="cannot add sku option to line item" />
     <MESSAGE value="sku option to line item --ok" />
     <MESSAGE value="problems still for build run" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems still for build run" />
+    <MESSAGE value="bug fixes for demo" />
+    <MESSAGE value="bug fixes for skuOptions" />
+    <MESSAGE value="BUILD IS RUN NOW" />
+    <MESSAGE value="order and line item amount vslues fixed..." />
+    <MESSAGE value="topic and biquery transformations on data" />
+    <MESSAGE value="availabilaty check and stabilize the clayer event to pubsub structure and data transformation" />
+    <MESSAGE value="availabilaty check and stabilize the clayer event to pubsub structure and data transformation---it is WORKING OK" />
+    <MESSAGE value="new schem , new query and everiything ok in frontend...NICEEEEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="new schem , new query and everiything ok in frontend...NICEEEEE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,7 +655,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>33</line>
+          <line>35</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -815,7 +860,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
