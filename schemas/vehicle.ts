@@ -29,7 +29,10 @@ export const vehicleType = defineType({
       name: 'title',
       type: 'internationalizedArrayString',
     }),
-
+    defineField({
+      name: 'mileage',
+      type: 'number',
+    }),
     defineField({
       title: 'Description',
       name: 'description',

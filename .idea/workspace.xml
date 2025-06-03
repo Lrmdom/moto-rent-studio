@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="new schem , new query and everiything ok in frontend...NICEEEEE">
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="some descriptions in fields like options.name, for rent, for sale , address delivery moved to vehicle from vehiclemodel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/VehicleGroupListOptions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/VehicleGroupListOptions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/vehicle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicleModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleModel.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
         <entry key="$PROJECT_DIR$/../rideRental-framework-mode" value="vite-pwa" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rideRental-framework-mode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -61,26 +59,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Debug",
-    "npm.dev.executor": "Debug",
-    "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
-    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/Book.tsx"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Debug&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/Book.tsx&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/components" />
@@ -327,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745427576163</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="some descriptions in fields like options.name, for rent, for sale , address delivery moved to vehicle from vehiclemodel">
+      <option name="closed" value="true" />
+      <created>1748468518546</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1748468518546</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +350,8 @@
     <MESSAGE value="MULTI RULES rules engine" />
     <MESSAGE value="avro schema on topic and bigquery....NEED tests" />
     <MESSAGE value="avro schema on topic and bigquery....TESTS OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="avro schema on topic and bigquery....TESTS OK" />
+    <MESSAGE value="some descriptions in fields like options.name, for rent, for sale , address delivery moved to vehicle from vehiclemodel" />
+    <option name="LAST_COMMIT_MESSAGE" value="some descriptions in fields like options.name, for rent, for sale , address delivery moved to vehicle from vehiclemodel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -567,55 +574,46 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.tsx</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx</url>
           <line>15</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/BookingForm.tsx</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Book.tsx</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Booking.tsx</url>
           <line>16</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/BookingForm.tsx</url>
           <line>24</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/routes/Home.tsx</url>
           <line>26</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx</url>
           <line>66</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../rideRental-framework-mode/app/components/Vehicles.tsx</url>
           <line>42</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="162" />
         </line-breakpoint>
       </breakpoints>
