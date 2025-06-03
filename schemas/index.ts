@@ -29,8 +29,14 @@ import {vehiclePricePeriodType} from './vehiclePricePeriod'
 import {vehicleListPricePeriodType} from './vehicleListPricePeriod'
 import {VehicleGroupListOptionsType} from './VehicleGroupListOptions'
 import {seasonDefinitionType} from './seasonDefinition'
+import {assurancePackageType} from './assurancePackage'
+import {exclusionDefinitionType} from './exclusionDefinition'
+import {coverageDefinitionType} from './coverageDefinition'
 
 export const schemaTypes = [
+  assurancePackageType,
+  exclusionDefinitionType,
+  coverageDefinitionType,
   locationType,
   vehicleGroupType,
   vehicleGroupListType,

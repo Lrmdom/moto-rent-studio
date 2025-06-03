@@ -1,6 +1,7 @@
-// schemas/vehicleGroupList.js
 import {defineField, defineType} from 'sanity'
-import {seasonDefinitionType} from './seasonDefinition' // Correct import
+import {seasonDefinitionType} from './seasonDefinition'
+// Make sure to import your new assurancePackageType
+import {assurancePackageType} from './assurancePackage' // <--- ADD THIS LINE
 
 export const vehicleGroupListType = defineType({
   name: 'vehicleGroupList',
@@ -30,9 +31,7 @@ export const vehicleGroupListType = defineType({
               title: 'Select Season',
               type: 'reference',
               to: [{type: 'seasonDefinition'}],
-              // --- ADD weak: true HERE ---
               weak: true,
-              // --- END ADDITION ---
               description: 'Select the predefined seasonal name (e.g., "High Season").',
             }),
             defineField({
@@ -67,6 +66,23 @@ export const vehicleGroupListType = defineType({
       description:
         'Define different daily prices for different time periods throughout the year. At least one period is required.',
     }),
+    // --- ADD THIS FIELD TO vehicleGroupListType ---
+    defineField({
+      name: 'availableAssurancePackages',
+      title: 'Available Assurance Packages',
+      type: 'array',
+      of: [
+        defineField({
+          name: 'assurancePackageRef',
+          title: 'Assurance Package',
+          type: 'reference',
+          to: [{type: 'assurancePackage'}], // Reference your new assurancePackageType
+          description: 'Select assurance packages available for this vehicle group.',
+        }),
+      ],
+      description: 'Define which assurance packages can be offered with this vehicle group.',
+    }),
+    // --- END ADDITION ---
     defineField({
       title: 'Title',
       name: 'title',
