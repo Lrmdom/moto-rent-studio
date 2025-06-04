@@ -25,7 +25,7 @@ export const exclusionDefinitionType = defineType({
     }),
     defineField({
       title: 'Display Title',
-      name: 'displayTitle',
+      name: 'title',
       type: 'internationalizedArrayString', // This is where the internationalization happens!
       description: 'The user-friendly title of the exclusion, in different languages.',
     }),

@@ -1,3 +1,4 @@
+// schemas/assurancePackage.js
 import {defineField, defineType} from 'sanity'
 
 export const assurancePackageType = defineType({
@@ -35,29 +36,7 @@ export const assurancePackageType = defineType({
       type: 'internationalizedArrayString',
       description: 'Detailed description of what the package includes, in different languages.',
     }),
-    defineField({
-      name: 'dailyPrice',
-      title: 'Daily Price',
-      type: 'number',
-      description: 'The additional daily cost of this assurance package (e.g., 15.00 for 15€/day).',
-      validation: (Rule) => Rule.min(0),
-    }),
-    defineField({
-      name: 'depositReduction',
-      title: 'Security Deposit Reduction (€)',
-      type: 'number',
-      description:
-        'Amount by which the security deposit is reduced (e.g., 500 for a 500€ reduction).',
-      validation: (Rule) => Rule.min(0),
-    }),
-    defineField({
-      name: 'excessReduction',
-      title: 'Excess/Deductible Reduction (€)',
-      type: 'number',
-      description:
-        'Amount by which the deductible/excess is reduced in case of damage (e.g., 800 for an 800€ reduction).',
-      validation: (Rule) => Rule.min(0),
-    }),
+    // --- Removed: depositReduction and excessReduction from here ---
     defineField({
       name: 'includedCoverages',
       title: 'Included Coverages/Benefits',
@@ -67,11 +46,10 @@ export const assurancePackageType = defineType({
           name: 'coverageRef',
           title: 'Coverage',
           type: 'reference',
-          to: [{type: 'coverageDefinition'}], // REFERENCE THE NEW SCHEMA
+          to: [{type: 'coverageDefinition'}],
           description: 'Select a predefined coverage definition.',
         }),
       ],
-      // You lose the 'tags' layout here, as it's now a list of references.
       description: 'Select specific benefits included in this package from predefined coverages.',
     }),
     defineField({
@@ -83,11 +61,10 @@ export const assurancePackageType = defineType({
           name: 'exclusionRef',
           title: 'Exclusion',
           type: 'reference',
-          to: [{type: 'exclusionDefinition'}], // REFERENCE THE NEW SCHEMA
+          to: [{type: 'exclusionDefinition'}],
           description: 'Select a predefined exclusion definition.',
         }),
       ],
-      // You lose the 'tags' layout here, as it's now a list of references.
       description:
         'Select specific exclusions that apply to this package from predefined definitions.',
     }),
@@ -109,17 +86,12 @@ export const assurancePackageType = defineType({
   preview: {
     select: {
       name: 'name',
-      dailyPrice: 'dailyPrice',
-      depositReduction: 'depositReduction',
+      // No numerical values to select here anymore for a simple preview
     },
-    prepare({name, dailyPrice, depositReduction}) {
-      const priceInfo = dailyPrice ? `${dailyPrice.toFixed(2)}€/day` : 'No Daily Cost'
-      const depositInfo = depositReduction
-        ? `Deposit Reduced by ${depositReduction.toFixed(2)}€`
-        : ''
+    prepare({name}) {
       return {
         title: name,
-        subtitle: `${priceInfo} ${depositInfo}`,
+        subtitle: 'Core assurance package definition', // More generic subtitle
       }
     },
   },

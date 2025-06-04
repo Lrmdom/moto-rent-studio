@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="mileage field in vehicles">
-      <change afterPath="$PROJECT_DIR$/schemas/assurancePackage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/coverageDefinition.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/exclusionDefinition.ts" afterDir="false" />
+    <list default="true" id="a53884bc-78cb-4345-828b-286d8a08347d" name="Changes" comment="assurance packages feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/assurancePackage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/assurancePackage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/coverageDefinition.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/coverageDefinition.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/exclusionDefinition.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/exclusionDefinition.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicleGroupList.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,9 @@
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="assurance-packs-schema" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -64,26 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "assurance-packs-schema",
-    "last_opened_file_path": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Debug",
-    "npm.dev.executor": "Debug",
-    "prettierjs.PrettierConfiguration.Package": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib",
-    "two.files.diff.last.used.file": "/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/Book.tsx"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Debug&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/leoneldomingos/Projects/moto-rent-studio/node_modules/typescript/lib&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/leoneldomingos/Projects/rideRental-framework-mode/app/routes/Book.tsx&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../rideRental-framework-mode/app/components" />

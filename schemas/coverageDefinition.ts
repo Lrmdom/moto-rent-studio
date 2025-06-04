@@ -26,7 +26,7 @@ export const coverageDefinitionType = defineType({
     }),
     defineField({
       title: 'Display Title',
-      name: 'displayTitle',
+      name: 'title',
       type: 'internationalizedArrayString', // This is where the internationalization happens!
       description: 'The user-friendly title of the coverage, in different languages.',
     }),

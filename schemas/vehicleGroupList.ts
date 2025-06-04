@@ -73,16 +73,131 @@ export const vehicleGroupListType = defineType({
       type: 'array',
       of: [
         defineField({
-          name: 'assurancePackageRef',
-          title: 'Assurance Package',
-          type: 'reference',
-          to: [{type: 'assurancePackage'}], // Reference your new assurancePackageType
-          description: 'Select assurance packages available for this vehicle group.',
+          name: 'assurancePackageDetails',
+          title: 'Assurance Package Details',
+          type: 'object',
+          fields: [
+            defineField({
+              name: 'package',
+              title: 'Assurance Package',
+              type: 'reference',
+              to: [{type: 'assurancePackage'}],
+              description: 'Select an assurance package available for this vehicle group.',
+            }),
+            defineField({
+              name: 'included',
+              title: 'Included in Rental Price?',
+              type: 'boolean',
+              initialValue: false,
+              description:
+                'If selected, this package is included with the rental and has no extra daily cost.',
+            }),
+            defineField({
+              name: 'price',
+              title: 'Price for this Vehicle Group',
+              type: 'number',
+              description:
+                'The distinct daily price for this assurance package when offered with THIS vehicle group. Deactivated if "Included" is checked.',
+              validation: (Rule) =>
+                Rule.min(0).custom((price, context) => {
+                  if (context.parent.included && (price === undefined || price === null)) {
+                    return true
+                  }
+                  if (!context.parent.included && (price === undefined || price === null)) {
+                    return 'Price is required when the package is not included in the rental.'
+                  }
+                  return true
+                }),
+              hidden: ({parent}) => parent?.included, // Hide if 'included' is true
+              // readOnly: ({parent}) => parent?.included, // Alternatively, make it readOnly
+            }),
+            // --- Re-added and modified original 'Deposit' field ---
+            defineField({
+              name: 'Deposit', // Keeping your original casing here
+              title: 'Package Deposit Value for this Group',
+              type: 'number',
+              description:
+                'The distinct deposit value for this assurance package when offered with THIS vehicle group. Deactivated if "Included" is checked.',
+              validation: (Rule) =>
+                Rule.min(0).custom((value, context) => {
+                  if (context.parent.included && (value === undefined || value === null)) {
+                    return true // Deposit is optional when included
+                  }
+                  if (!context.parent.included && (value === undefined || value === null)) {
+                    return 'Deposit value is required when the package is not included.'
+                  }
+                  return true
+                }),
+            }),
+            // --- Re-added 'excessReduction' as you requested if it also needs to be group-specific ---
+            defineField({
+              name: 'excessReduction',
+              title: 'Excess/Deductible Reduction (€) for this Group',
+              type: 'number',
+              description:
+                'Amount by which the deductible/excess is reduced by this package for THIS vehicle group. Deactivated if "Included" is checked.',
+              validation: (Rule) =>
+                Rule.min(0).custom((value, context) => {
+                  if (context.parent.included && (value === undefined || value === null)) {
+                    return true // Excess reduction is optional when included
+                  }
+                  if (!context.parent.included && (value === undefined || value === null)) {
+                    return 'Excess reduction value is required when the package is not included.'
+                  }
+                  return true
+                }),
+              hidden: ({parent}) => parent?.included, // Hide if 'included' is true
+              // readOnly: ({parent}) => parent?.included, // Alternatively, make it readOnly
+            }),
+          ],
+          preview: {
+            select: {
+              packageName: 'package.name',
+              price: 'price',
+              included: 'included',
+              depositValue: 'Deposit', // Select the 'Deposit' field for preview
+              excessReduction: 'excessReduction', // Select the 'excessReduction' field for preview
+            },
+            prepare({packageName, price, included, depositValue, excessReduction}) {
+              let subtitleParts = []
+
+              if (included) {
+                subtitleParts.push('Included in Rental Price')
+              } else if (price !== undefined && price !== null) {
+                subtitleParts.push(`Price: ${price.toFixed(2)}€`)
+              }
+
+              if (depositValue !== undefined && depositValue !== null) {
+                subtitleParts.push(`Deposit: ${depositValue.toFixed(2)}€`)
+              }
+              if (excessReduction !== undefined && excessReduction !== null) {
+                subtitleParts.push(`Excess: ${excessReduction.toFixed(2)}€`)
+              }
+
+              return {
+                title: packageName || 'Unnamed Assurance Package',
+                subtitle: subtitleParts.join(' | ') || 'Details not set',
+              }
+            },
+          },
         }),
       ],
-      description: 'Define which assurance packages can be offered with this vehicle group.',
+      description:
+        'Define which assurance packages can be offered with this vehicle group, and their specific daily prices, deposit and excess reductions. Set a package as "Included" to make it free with the rental.',
+      validation: (Rule) =>
+        Rule.custom((packages) => {
+          if (!packages) {
+            return true
+          }
+          const packageRefs = packages.map((p) => p.package?._ref).filter(Boolean)
+          const uniqueRefs = new Set(packageRefs)
+
+          if (uniqueRefs.size !== packageRefs.length) {
+            return 'Each assurance package must be selected only once per vehicle group.'
+          }
+          return true
+        }),
     }),
-    // --- END ADDITION ---
     defineField({
       title: 'Title',
       name: 'title',
