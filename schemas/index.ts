@@ -32,8 +32,15 @@ import {seasonDefinitionType} from './seasonDefinition'
 import {assurancePackageType} from './assurancePackage'
 import {exclusionDefinitionType} from './exclusionDefinition'
 import {coverageDefinitionType} from './coverageDefinition'
+import {termsAndConditionsType} from './termsAndConditions'
+import {privacyPolicyType} from './privacyPolicy'
+import {faqType, faqCategoryType} from './faq'
 
 export const schemaTypes = [
+  faqCategoryType,
+  faqType,
+  termsAndConditionsType,
+  privacyPolicyType,
   assurancePackageType,
   exclusionDefinitionType,
   coverageDefinitionType,
