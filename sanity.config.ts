@@ -1,6 +1,6 @@
 import {visionTool} from '@sanity/vision'
 import {defineConfig} from 'sanity'
-import { defineType, FieldDefinition } from 'sanity';
+import {defineType, FieldDefinition} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {schemaTypes} from './schemas'
 import {presentationTool, DocumentLocationResolver} from 'sanity/presentation'
@@ -15,12 +15,11 @@ import {defaultDocumentNode} from './src/defaultDocumentNode'
 export const projectId = process.env.SANITY_STUDIO_PROJECT_ID!
 export const dataset = process.env.SANITY_STUDIO_DATASET!
 import {codeInput} from '@sanity/code-input'
-import {hierarchicalDocumentList, hierarchyTree} from '@sanity/hierarchical-document-list'
+//import {hierarchicalDocumentList, hierarchyTree} from '@sanity/hierarchical-document-list'
 
 import {cloudinaryAssetSourcePlugin} from 'sanity-plugin-cloudinary'
 import {cloudinaryImageSource} from 'sanity-plugin-cloudinary'
 import {cloudinarySchemaPlugin} from 'sanity-plugin-cloudinary'
-
 
 const locate: DocumentLocationResolver = (params, context) => {
   const {documentStore} = context
@@ -56,11 +55,8 @@ const locate: DocumentLocationResolver = (params, context) => {
 
   return null
 }
-const SANITY_STUDIO_PREVIEW_URL = (
-  process.env.SANITY_STUDIO_PREVIEW_URL
-  || 'http://localhost:3333'
-)
-const SITE_URL = "http://localhost:5173"
+const SANITY_STUDIO_PREVIEW_URL = process.env.SANITY_STUDIO_PREVIEW_URL || 'http://localhost:3333'
+const SITE_URL = 'http://localhost:5173'
 // @ts-ignore
 export default defineConfig({
   name: 'execlog',
@@ -71,7 +67,7 @@ export default defineConfig({
     cloudinarySchemaPlugin(),
     cloudinaryAssetSourcePlugin(),
     //sanityCommerce(sanityCommerceConfig),
-    hierarchicalDocumentList(),
+    //hierarchicalDocumentList(),
     structureTool({
       //structure: myStructure,
       defaultDocumentNode,
@@ -80,10 +76,10 @@ export default defineConfig({
     presentationTool({
       previewUrl: {
         origin: process.env.SANITY_STUDIO_PREVIEW_URL,
-        preview: "/",
+        preview: '/',
         previewMode: {
-          enable: "/api/preview-mode/enable",
-          disable: "/api/preview-mode/disable",
+          enable: '/api/preview-mode/enable',
+          disable: '/api/preview-mode/disable',
         },
       },
     }),
@@ -111,7 +107,7 @@ export default defineConfig({
         {id: 'es', title: 'Español'},
       ],
       defaultLanguages: ['pt'],
-      fieldTypes: ['string', 'blockContent','text'],
+      fieldTypes: ['string', 'blockContent', 'text'],
     }),
     documentInternationalization({
       // Required configuration
@@ -123,7 +119,6 @@ export default defineConfig({
       schemaTypes: ['page2', 'page', 'landingPage', 'post'],
     }),
     codeInput(),
-
   ],
   form: {
     // Don't use this plugin when selecting files only (but allow all other enabled asset sources)
@@ -148,6 +143,6 @@ export default defineConfig({
     },
   },
   schema: {
-    types: schemaTypes,hierarchyTree,
+    types: schemaTypes,
   },
 })
