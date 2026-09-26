@@ -59,8 +59,8 @@ const SANITY_STUDIO_PREVIEW_URL = process.env.SANITY_STUDIO_PREVIEW_URL || 'http
 const SITE_URL = 'http://localhost:5173'
 // @ts-ignore
 export default defineConfig({
-  name: 'execlog',
-  title: 'Execlog project',
+  name: 'Rides-Rentals',
+  title: 'Rides.Rent',
   projectId,
   dataset,
   plugins: [

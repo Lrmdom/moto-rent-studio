@@ -1,6 +1,6 @@
 // schemas/seasonDefinition.js
-import {defineType, defineField} from 'sanity'
-import {CalendarIcon} from '@sanity/icons'
+import { defineType, defineField } from 'sanity'
+import { CalendarIcon } from '@sanity/icons'
 
 export const seasonDefinitionType = defineType({
   name: 'seasonDefinition', // This is the simple lookup for season names
@@ -16,14 +16,14 @@ export const seasonDefinitionType = defineType({
       // You'll likely want validation here later: (Rule) => Rule.required().unique(),
     }),
     defineField({
-      name: 'start_Date',
+      name: 'start_date',
       title: 'Default Start Date',
       type: 'date',
       description: 'The typical start date for this season (e.g., 2025-07-01 for High Season).',
       // You'll likely want validation here later: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'end_Date',
+      name: 'end_date',
       title: 'Default End Date',
       type: 'date',
       description: 'The typical end date for this season (e.g., 2025-08-31 for High Season).',
