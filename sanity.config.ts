@@ -1,35 +1,35 @@
-import {visionTool} from '@sanity/vision'
-import {defineConfig} from 'sanity'
-import {defineType, FieldDefinition} from 'sanity'
-import {structureTool} from 'sanity/structure'
-import {schemaTypes} from './schemas'
-import {presentationTool, DocumentLocationResolver} from 'sanity/presentation'
-import {Observable, map} from 'rxjs'
+import { visionTool } from '@sanity/vision'
+import { defineConfig } from 'sanity'
+import { defineType, FieldDefinition } from 'sanity'
+import { structureTool } from 'sanity/structure'
+import { schemaTypes } from './schemas'
+import { presentationTool, DocumentLocationResolver } from 'sanity/presentation'
+import { Observable, map } from 'rxjs'
 
-import {media, mediaAssetSource} from 'sanity-plugin-media'
+import { media, mediaAssetSource } from 'sanity-plugin-media'
 //import {sanityCommerce, SanityCommercePluginConfig} from '@commercelayer/sanity-plugin-commerce'
-import {internationalizedArray} from 'sanity-plugin-internationalized-array'
-import {documentInternationalization} from '@sanity/document-internationalization'
-import {defaultDocumentNode} from './src/defaultDocumentNode'
-//import {myStructure} from './deskStructure'
+import { internationalizedArray } from 'sanity-plugin-internationalized-array'
+import { documentInternationalization } from '@sanity/document-internationalization'
+import { defaultDocumentNode } from './src/defaultDocumentNode'
+import { myStructure } from './deskStructure'
 export const projectId = process.env.SANITY_STUDIO_PROJECT_ID!
 export const dataset = process.env.SANITY_STUDIO_DATASET!
-import {codeInput} from '@sanity/code-input'
+import { codeInput } from '@sanity/code-input'
 //import {hierarchicalDocumentList, hierarchyTree} from '@sanity/hierarchical-document-list'
 
-import {cloudinaryAssetSourcePlugin} from 'sanity-plugin-cloudinary'
-import {cloudinaryImageSource} from 'sanity-plugin-cloudinary'
-import {cloudinarySchemaPlugin} from 'sanity-plugin-cloudinary'
+import { cloudinaryAssetSourcePlugin } from 'sanity-plugin-cloudinary'
+import { cloudinaryImageSource } from 'sanity-plugin-cloudinary'
+import { cloudinarySchemaPlugin } from 'sanity-plugin-cloudinary'
 
 const locate: DocumentLocationResolver = (params, context) => {
-  const {documentStore} = context
+  const { documentStore } = context
 
   // if (params.type === 'post') {
   // Listen to the query and fetch the draft and published document
   const doc$ = documentStore.listenQuery(`*[_id == $id][0]{slug,title}`, params, {
     perspective: 'previewDrafts',
   }) as Observable<{
-    slug: {current: string | null} | null
+    slug: { current: string | null } | null
     title: string | null
   } | null>
 
@@ -69,7 +69,7 @@ export default defineConfig({
     //sanityCommerce(sanityCommerceConfig),
     //hierarchicalDocumentList(),
     structureTool({
-      //structure: myStructure,
+      structure: myStructure,
       defaultDocumentNode,
     }),
     media(),
@@ -102,9 +102,9 @@ export default defineConfig({
     visionTool(),
     internationalizedArray({
       languages: [
-        {id: 'pt', title: 'Português'},
-        {id: 'en', title: 'English'},
-        {id: 'es', title: 'Español'},
+        { id: 'pt', title: 'Português' },
+        { id: 'en', title: 'English' },
+        { id: 'es', title: 'Español' },
       ],
       defaultLanguages: ['pt'],
       fieldTypes: ['string', 'blockContent', 'text'],
@@ -112,9 +112,9 @@ export default defineConfig({
     documentInternationalization({
       // Required configuration
       supportedLanguages: [
-        {id: 'pt', title: 'Português'},
-        {id: 'en', title: 'English'},
-        {id: 'es', title: 'Español'},
+        { id: 'pt', title: 'Português' },
+        { id: 'en', title: 'English' },
+        { id: 'es', title: 'Español' },
       ],
       schemaTypes: ['page2', 'page', 'landingPage', 'post'],
     }),

@@ -16,14 +16,14 @@ export const seasonDefinitionType = defineType({
       // You'll likely want validation here later: (Rule) => Rule.required().unique(),
     }),
     defineField({
-      name: 'start_date',
+      name: 'start_Date',
       title: 'Default Start Date',
       type: 'date',
       description: 'The typical start date for this season (e.g., 2025-07-01 for High Season).',
       // You'll likely want validation here later: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'end_date',
+      name: 'end_Date',
       title: 'Default End Date',
       type: 'date',
       description: 'The typical end date for this season (e.g., 2025-08-31 for High Season).',
