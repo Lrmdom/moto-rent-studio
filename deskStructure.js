@@ -29,21 +29,31 @@ export const myStructure = (S) =>
             ])
         ),
       S.listItem()
-        .title('Vehicles')
+        .title('TURFORTES')
         .icon(MdDirectionsCar)
         .child(
           S.list()
-            .title('Vehicles')
+            .title('TURFORTES')
             .items([
-              S.listItem().title('Vehicles').schemaType('vehicle').child(S.documentTypeList('vehicle')),
-              S.listItem().title('Vehicle Groups').schemaType('vehicleGroup').child(S.documentTypeList('vehicleGroup')),
-              S.listItem().title('Vehicle Group Lists').schemaType('vehicleGroupList').child(S.documentTypeList('vehicleGroupList')),
-              S.listItem().title('Vehicle Models').schemaType('vehicleModel').child(S.documentTypeList('vehicleModel')),
+              S.documentTypeListItem('vehicle').title('Vehicles'),
+              S.documentTypeListItem('vehicleGroup').title('Vehicle Groups'),
+              S.documentTypeListItem('vehicleGroupList').title('Vehicle Group Lists'),
+              S.documentTypeListItem('vehicleModel').title('Vehicle Models'),
+              S.listItem()
+                .title('Experiences & Tours')
+                .child(
+                  S.list()
+                    .title('Experiences & Tours')
+                    .items([
+                      S.documentTypeListItem('experience').title('Experiences'),
+                      S.documentTypeListItem('tour').title('Tours'),
+                    ])
+                ),
             ])
         ),
       S.divider(),
       ...S.documentTypeListItems()
-        .filter(listItem => !['siteSettings', 'landingPage', 'vehicle', 'vehicleGroup', 'vehicleGroupList', 'vehicleModel'].includes(listItem.getId()))
+        .filter(listItem => !['siteSettings', 'landingPage', 'vehicle', 'vehicleGroup', 'vehicleGroupList', 'vehicleModel', 'experience', 'tour'].includes(listItem.getId()))
 
     ])
 
