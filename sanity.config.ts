@@ -27,7 +27,7 @@ const locate: DocumentLocationResolver = (params, context) => {
   // if (params.type === 'post') {
   // Listen to the query and fetch the draft and published document
   const doc$ = documentStore.listenQuery(`*[_id == $id][0]{slug,title}`, params, {
-    perspective: 'previewDrafts',
+    perspective: 'drafts',
   }) as Observable<{
     slug: { current: string | null } | null
     title: string | null
@@ -55,7 +55,7 @@ const locate: DocumentLocationResolver = (params, context) => {
 
   return null
 }
-const SANITY_STUDIO_PREVIEW_URL = process.env.SANITY_STUDIO_PREVIEW_URL || 'http://localhost:3333'
+const SANITY_STUDIO_PREVIEW_URL = process.env.SANITY_STUDIO_PREVIEW_URL || 'http://localhost:5173'
 const SITE_URL = 'http://localhost:5173'
 // @ts-ignore
 export default defineConfig({
@@ -74,8 +74,9 @@ export default defineConfig({
     }),
     media(),
     presentationTool({
+      locate,
       previewUrl: {
-        origin: process.env.SANITY_STUDIO_PREVIEW_URL,
+        origin: SANITY_STUDIO_PREVIEW_URL,
         preview: '/',
         previewMode: {
           enable: '/api/preview-mode/enable',

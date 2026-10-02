@@ -25,6 +25,7 @@ export const myStructure = (S) =>
                     .title('Experiências e Tours')
                     .items([
                       S.documentTypeListItem('experience').title('Experiências'),
+                      S.documentTypeListItem('experienceCategory').title('Categorias de Experiência'),
                       S.documentTypeListItem('tour').title('Tours'),
                     ])
                 ),

@@ -36,9 +36,11 @@ import { termsAndConditionsType } from './termsAndConditions'
 import { privacyPolicyType } from './privacyPolicy'
 import { faqType, faqCategoryType } from './faq'
 import tour from './tour'
+import { experienceCategoryType } from './experienceCategory'
 import experience from './experience'
 export const schemaTypes = [
   experience,
+  experienceCategoryType,
   tour,
   faqCategoryType,
   faqType,

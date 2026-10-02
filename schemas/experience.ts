@@ -24,15 +24,8 @@ export default defineType({
     defineField({
       name: 'category',
       title: 'Categoria',
-      type: 'string',
-      options: {
-        list: [
-          { title: 'Gastronomia e Vinhos', value: 'gastronomy' },
-          { title: 'Aventura e Natureza', value: 'adventure' },
-          { title: 'Cultura e História', value: 'culture' },
-          { title: 'Bem-estar', value: 'wellness' },
-        ],
-      },
+      type: 'reference',
+      to: [{ type: 'experienceCategory' }],
     }),
     defineField({
       name: 'mainImage',
@@ -74,7 +67,7 @@ export default defineType({
   preview: {
     select: {
       title: 'title',
-      subtitle: 'category',
+      subtitle: 'category.title',
       media: 'mainImage',
     },
   },
