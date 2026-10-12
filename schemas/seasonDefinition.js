@@ -1,6 +1,6 @@
 // schemas/seasonDefinition.js
 import { defineType, defineField } from 'sanity'
-import { CalendarIcon } from '@sanity/icons'
+import { CalendarIcon } from '@sanity/icons/Calendar'
 
 export const seasonDefinitionType = defineType({
   name: 'seasonDefinition', // This is the simple lookup for season names

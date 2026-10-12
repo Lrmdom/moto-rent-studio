@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {DiamondIcon} from '@sanity/icons'
+import { DiamondIcon } from "@sanity/icons/Diamond";
 
 export const vehicleModelAcessoriesGroupType = defineType({
   name: 'vehicleModelAcessoriesGroup',

@@ -1,5 +1,5 @@
 import {defineField, defineType} from 'sanity'
-import {UnlockIcon} from '@sanity/icons'
+import { UnlockIcon } from "@sanity/icons/Unlock";
 
 export const privacyPolicyType = defineType({
   name: 'privacyPolicy',
