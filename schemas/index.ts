@@ -1,3 +1,5 @@
+import { lead } from '../lead'
+import { property } from './property'
 import { companyType } from './company'
 import { vehicleType } from './vehicle'
 import { vehicleGroupType } from './vehicleGroup'
@@ -39,6 +41,8 @@ import tour from './tour'
 import { experienceCategoryType } from './experienceCategory'
 import experience from './experience'
 export const schemaTypes = [
+  lead,
+  property,
   experience,
   experienceCategoryType,
   tour,

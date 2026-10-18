@@ -1,9 +1,9 @@
 // ./deskStructure.js
 
-import {MdDirectionsCar} from 'react-icons/md'
+import {MdDirectionsCar, MdHome} from 'react-icons/md'
 
 export const myStructure = (S) =>
-  
+
   S.list()
     .title('Conteúdo')
     .items([
@@ -32,6 +32,17 @@ export const myStructure = (S) =>
             ])
         ),
       S.listItem()
+        .title('Imobiliário')
+        .icon(MdHome)
+        .child(
+          S.list()
+            .title('Imobiliário')
+            .items([
+              S.documentTypeListItem('lead').title('Leads'),
+              S.documentTypeListItem('property').title('Imóveis'),
+            ])
+        ),
+      S.listItem()
         .title('Páginas')
         .child(
           S.list()
@@ -53,11 +64,12 @@ export const myStructure = (S) =>
                 )
             ])
         ),
-      
+
       S.divider(),
       ...S.documentTypeListItems()
-        .filter(listItem => !['siteSettings', 'landingPage', 'vehicle', 'vehicleGroup', 'vehicleGroupList', 'vehicleModel', 'experience', 'tour'].includes(listItem.getId()))
+        .filter(listItem => !['siteSettings', 'landingPage', 'vehicle', 'vehicleGroup', 'vehicleGroupList', 'vehicleModel', 'experience', 'tour', 'lead', 'property'].includes(listItem.getId()))
 
     ])
+
 
 
