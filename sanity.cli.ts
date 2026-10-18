@@ -7,5 +7,7 @@ export default defineCliConfig({
     dataset,
   },
   studioHost: 'moto-rent-studio',
-  appId: 'loqas0x2p617l3xjnvy1itum'
+  deployment: {
+    appId: 'loqas0x2p617l3xjnvy1itum',
+  },
 })

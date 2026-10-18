@@ -1,3 +1,4 @@
+import { legalDocument } from './document'
 import { lead } from '../lead'
 import { property } from './property'
 import { companyType } from './company'
@@ -41,6 +42,7 @@ import tour from './tour'
 import { experienceCategoryType } from './experienceCategory'
 import experience from './experience'
 export const schemaTypes = [
+  legalDocument,
   lead,
   property,
   experience,

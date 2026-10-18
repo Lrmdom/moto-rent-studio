@@ -36,6 +36,12 @@ export const property = defineType({
       of: [{type: 'string'}],
       options: {list: ['Garagem', 'Piscina', 'Varanda', 'Elevador']},
     }),
+    defineField({
+      name: 'legalDocuments',
+      title: 'Documentos Legais',
+      type: 'array',
+      of: [{ type: 'reference', to: [{ type: 'legalDocument' }] }],
+    }),
     // ... outros campos (estado, descrição, etc.)
   ],
 })

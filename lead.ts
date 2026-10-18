@@ -39,5 +39,16 @@ export const lead = defineType({
             },
             initialValue: 'Pendente',
         }),
+        defineField({
+            name: 'signed',
+            title: 'Assinado',
+            type: 'boolean',
+            initialValue: false,
+        }),
+        defineField({
+            name: 'signedAt',
+            title: 'Data de Assinatura',
+            type: 'datetime',
+        }),
     ],
 })
